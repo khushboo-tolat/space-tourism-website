@@ -1,0 +1,14 @@
+@import './Typograpy.scss';
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) { //tablet
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) { //laptop
+    
+}
+
+@media screen and (min-width: 1280px){ //desktop
+    
+}

@@ -1,0 +1,23 @@
+@import './Typograpy.scss';
+
+.home{
+    background-image: url('../../assets/home/background-home-mobile.jpg');
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { //tablet
+    .home{
+        background-image: url('../../assets/home/background-home-tablet.jpg');
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) { //laptop
+    .home{
+        background-image: url('../../assets/home/background-home-desktop.jpg');
+    }
+}
+
+@media screen and (min-width: 1280px){ //desktop
+    .home{
+        background-image: url('../../assets/home/background-home-desktop.jpg');
+    } 
+}

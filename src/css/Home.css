@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Barlow-Regular";
+  src: url(../../assets/fonts/Barlow/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: "Bellefair-Regular";
+  src: url(../../assets/fonts/Bellefair/Bellefair-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Regular";
+  src: url(../../assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf);
+}
+.home {
+  background-image: url("../../assets/home/background-home-mobile.jpg");
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .home {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .home {
+    background-image: url("../../assets/home/background-home-desktop.jpg");
+  }
+}
+@media screen and (min-width: 1280px) {
+  .home {
+    background-image: url("../../assets/home/background-home-desktop.jpg");
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */
